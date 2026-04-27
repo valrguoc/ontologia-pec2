@@ -1,0 +1,550 @@
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta la solución con el problema"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.w3.org/2000/01/rdf-schema#label> "Aborda incidente"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo afectado"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Afecta al dispositivo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta el dispositivo con su categoría"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene tipo de dispositivo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un dispositivo con su fabricante"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene fabricante"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta el incidente con el tipo de riesgo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene riesgo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el dispositivo que causó el accidente"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo involucrado"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/2000/01/rdf-schema#comment> "Propiedad transitiva que indica que una clase se encuentra en un nivel jerárquico inferior"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder> <http://www.w3.org/2000/01/rdf-schema#label> "Subclasificado bajo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Quien avisa" .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Entidad notificadora"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que ocurrió el incidente"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha del evento"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de la entidad"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> <http://www.w3.org/2000/01/rdf-schema#label> "tiene nombre"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica si el dispositivo se implanta en el cuerpo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> <http://www.w3.org/2000/01/rdf-schema#label> "Es implantable"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que funciona con corriente eléctrica o con alguna otra fuente de energía que no es la del ser humano"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo Activo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que es introducido total o parcialmente al cuerpo humano mediante una intervención quirúrgica o médica"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#label> "Implante Activo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC> <http://www.w3.org/2000/01/rdf-schema#comment> "Alto riesgo individual y/o riesgo moderado para la salud pública"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC> <http://www.w3.org/2000/01/rdf-schema#label> "Clase C"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD> <http://www.w3.org/2000/01/rdf-schema#comment> "Alto riesgo individual y alto riesgo para la salud pública"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD> <http://www.w3.org/2000/01/rdf-schema#label> "Clase D"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo bajo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI> <http://www.w3.org/2000/01/rdf-schema#label> "Clase I"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo muy alto, generalmente implantes o dispositivos con medicamentos"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "Clase III"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo medio"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa> <http://www.w3.org/2000/01/rdf-schema#label> "Clase IIa"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo alto"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb> <http://www.w3.org/2000/01/rdf-schema#label> "Clase IIb"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo mediante el cuál el dispositivo puede introducir agentes externos al paciente o al entorno clínico"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Contaminación"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Acciones correctivas de seguridad en campo (FSCA) vinculadas a incidentes."@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acciones correctivas"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo asociados a vulnerabilidades en dispositivos conectados que pueden comprometer la confidencialidad o disponibilidad de los datos"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Ciberseguridad"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que representa un dispositivo médico"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo Medico"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Medical_device> .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Todos los tipso de dispositivos que se encuentran listados en los datos"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Dispositivo"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de que el dispositivo proporcione información incorrecta que lleve a decisiones clínicas erróneas"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Diagnóstico"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que depende de una fuente de energía para funcionar, diseñado para ser introducido total o parcialmente en el cuerpo mediante una intervención quirúrgica o médica y destinado a permanecer allí tras la intervención"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo Activo Implantable"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que es implantado totalmente en el cuerpo humano"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo Implantable"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo santiario que se utiliza para diagnosticos, para control, para realizar pruebas, etc."@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo de Diagnóstico In Vitro"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> <http://www.w3.org/2000/01/rdf-schema#comment> "Incidentes notificados asociados a dispositivos específicos."@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> <http://www.w3.org/2000/01/rdf-schema#label> "Incidentes"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Adverse_event> .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de que el dispositivo con programas informáticos incluyan errores de código, fallos de algoritmos o bugs que impidan cumplir su función"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Software"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de daño físico directo al cuerpo humano resultante del uso de un dispositivo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Lesión"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de interferencia al dispositivo a causa de campos electromagnéticos o que el propio dispositivo interfiera con otro equipos médicos cercanoses"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Interferencia"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de fallo del dispositivo para actuar como espera que funciones el fabricante"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de mal funcionamiento"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Datos de fabricantes europeos (nombre, país, número de autorización)."@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Fabricante"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Manufacturer> .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Peligros derivados de las propiedades físicas, químicas o biológicas de los materiales que componen el dispositivo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Materiales"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo asociado a la exposición de radiaciones ionizantes o no ionizantes emitidas por el dispositivo"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Radiación"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> <http://www.w3.org/2000/01/rdf-schema#comment> "Catálogo de riesgos identificados según la nomenclatura IMDRF."@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgos"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Todos los riesgos clasificados en clases"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "Clases de Riesgos"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que puede ser utilizado por una persona que no es del personal médico"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo de Autodiagnostico"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispositivo sanitario que se utiliza una sola vez"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo de un solo uso"@es .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Riesgo de transmitir patógenos del dispositivo al paciente"@es .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Riesgo de Infección"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> "SafetyAlert" .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> "HeartMate 3 LVAD" .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate> "2026-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> "Medtronic plc" .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Medtronic> .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName> "Device failure - electrical" .
+# 
+# http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid4 <http://www.w3.org/2002/07/owl#members> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid12 <http://www.w3.org/2002/07/owl#members> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid19 <http://www.w3.org/2002/07/owl#members> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid30 <http://www.w3.org/2002/07/owl#members> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid38 <http://www.w3.org/2003/11/swrl#body> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid40 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#i> .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid42 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid44 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/2003/11/swrl#head> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid46 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid47 <http://www.w3.org/2003/11/swrl#body> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid49 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid51 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid53 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/2003/11/swrl#head> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid55 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid55 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid56 <http://www.w3.org/2003/11/swrl#body> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid58 .
+_:genid58 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid58 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid58 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid60 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid60 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid62 .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid62 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid56 <http://www.w3.org/2003/11/swrl#head> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid64 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,977 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid44"
+    }, {
+      "@id" : "_:genid42"
+    }, {
+      "@id" : "_:genid40"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid46"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice"
+    }, {
+      "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid53"
+    }, {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid49"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid62"
+    }, {
+      "@id" : "_:genid60"
+    }, {
+      "@id" : "_:genid58"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid64"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001"
+  } ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName" : [ {
+    "@value" : "SafetyAlert"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que funciona con corriente eléctrica o con alguna otra fuente de energía que no es la del ser humano"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo Activo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que es introducido total o parcialmente al cuerpo humano mediante una intervención quirúrgica o médica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Implante Activo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Alto riesgo individual y/o riesgo moderado para la salud pública"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase C"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Alto riesgo individual y alto riesgo para la salud pública"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo bajo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase I"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo muy alto, generalmente implantes o dispositivos con medicamentos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase III"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo medio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase IIa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo alto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clase IIb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo mediante el cuál el dispositivo puede introducir agentes externos al paciente o al entorno clínico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Contaminación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Acciones correctivas de seguridad en campo (FSCA) vinculadas a incidentes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Acciones correctivas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo asociados a vulnerabilidades en dispositivos conectados que pueden comprometer la confidencialidad o disponibilidad de los datos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Ciberseguridad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001"
+  } ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001"
+  } ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName" : [ {
+    "@value" : "HeartMate 3 LVAD"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Clase que representa un dispositivo médico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo Medico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Medical_device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Todos los tipso de dispositivos que se encuentran listados en los datos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tipo de Dispositivo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de que el dispositivo proporcione información incorrecta que lleve a decisiones clínicas erróneas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Diagnóstico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2026-01-01T00:00:00"
+  } ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001"
+  } ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que depende de una fuente de energía para funcionar, diseñado para ser introducido total o parcialmente en el cuerpo mediante una intervención quirúrgica o médica y destinado a permanecer allí tras la intervención"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo Activo Implantable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que es implantado totalmente en el cuerpo humano"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo Implantable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo santiario que se utiliza para diagnosticos, para control, para realizar pruebas, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo de Diagnóstico In Vitro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Incidentes notificados asociados a dispositivos específicos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Incidentes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Adverse_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de que el dispositivo con programas informáticos incluyan errores de código, fallos de algoritmos o bugs que impidan cumplir su función"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de daño físico directo al cuerpo humano resultante del uso de un dispositivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Lesión"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de interferencia al dispositivo a causa de campos electromagnéticos o que el propio dispositivo interfiera con otro equipos médicos cercanoses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Interferencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName" : [ {
+    "@value" : "Medtronic plc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Medtronic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de fallo del dispositivo para actuar como espera que funciones el fabricante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de mal funcionamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Datos de fabricantes europeos (nombre, país, número de autorización)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Fabricante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://dbpedia.org/resource/Manufacturer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Peligros derivados de las propiedades físicas, químicas o biológicas de los materiales que componen el dispositivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Materiales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName" : [ {
+    "@value" : "Device failure - electrical"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo asociado a la exposición de radiaciones ionizantes o no ionizantes emitidas por el dispositivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Radiación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Catálogo de riesgos identificados según la nomenclatura IMDRF."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Todos los riesgos clasificados en clases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clases de Riesgos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que puede ser utilizado por una persona que no es del personal médico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo de Autodiagnostico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo sanitario que se utiliza una sola vez"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo de un solo uso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de transmitir patógenos del dispositivo al paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Riesgo de Infección"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Conecta la solución con el problema"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Aborda incidente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo afectado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Afecta al dispositivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Fecha en la que ocurrió el incidente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Fecha del evento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Conecta el dispositivo con su categoría"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tiene tipo de dispositivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Relaciona un dispositivo con su fabricante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tiene fabricante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Nombre de la entidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tiene nombre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Conecta el incidente con el tipo de riesgo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tiene riesgo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica el dispositivo que causó el accidente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Dispositivo involucrado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica si el dispositivo se implanta en el cuerpo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Es implantable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Propiedad transitiva que indica que una clase se encuentra en un nivel jerárquico inferior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Subclasificado bajo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Quien avisa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Entidad notificadora"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#d",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#i",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#m",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#t",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

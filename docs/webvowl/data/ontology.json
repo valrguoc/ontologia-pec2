@@ -1,0 +1,1808 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "es", "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MalfunctionRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/MalfunctionRisk",
+      "es" : "Riesgo de mal funcionamiento"
+    },
+    "comment" : {
+      "es" : "Riesgo de fallo del dispositivo para actuar como espera que funciones el fabricante"
+    },
+    "id" : "23",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "50",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MaterialRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/MaterialRisk",
+      "es" : "Riesgo de Materiales"
+    },
+    "comment" : {
+      "es" : "Peligros derivados de las propiedades físicas, químicas o biológicas de los materiales que componen el dispositivo"
+    },
+    "id" : "63",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassC",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassC",
+      "es" : "Clase C"
+    },
+    "comment" : {
+      "es" : "Alto riesgo individual y/o riesgo moderado para la salud pública"
+    },
+    "id" : "30",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassD",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassD",
+      "es" : "Clase D"
+    },
+    "comment" : {
+      "es" : "Alto riesgo individual y alto riesgo para la salud pública"
+    },
+    "id" : "25",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SoftwareRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/SoftwareRisk",
+      "es" : "Riesgo de Infección"
+    },
+    "comment" : {
+      "es" : "Riesgo de transmitir patógenos del dispositivo al paciente"
+    },
+    "id" : "71",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CybersecurityRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/CybersecurityRisk",
+      "es" : "Riesgo de Ciberseguridad"
+    },
+    "comment" : {
+      "es" : "Riesgo asociados a vulnerabilidades en dispositivos conectados que pueden comprometer la confidencialidad o disponibilidad de los datos"
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InVitroDiagnosticDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/InVitroDiagnosticDevice",
+      "es" : "Dispositivo de Diagnóstico In Vitro"
+    },
+    "comment" : {
+      "es" : "Dispositivo santiario que se utiliza para diagnosticos, para control, para realizar pruebas, etc."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Incident",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Adverse_event",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "/Incident",
+      "es" : "Incidentes"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/INC-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "labels" : {
+        "IRI-based" : "/INC-001"
+      }
+    } ],
+    "comment" : {
+      "es" : "Incidentes notificados asociados a dispositivos específicos."
+    },
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ContaminationRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ContaminationRisk",
+      "es" : "Riesgo de Contaminación"
+    },
+    "comment" : {
+      "es" : "Riesgo mediante el cuál el dispositivo puede introducir agentes externos al paciente o al entorno clínico"
+    },
+    "id" : "85",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InjuryRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/InjuryRisk",
+      "es" : "Riesgo de Lesión"
+    },
+    "comment" : {
+      "es" : "Riesgo de daño físico directo al cuerpo humano resultante del uso de un dispositivo"
+    },
+    "id" : "18",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SingleUseDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/SingleUseDevice",
+      "es" : "Dispositivo de un solo uso"
+    },
+    "comment" : {
+      "es" : "Dispositivo sanitario que se utiliza una sola vez"
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DeviceType",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/DeviceType",
+      "es" : "Tipo de Dispositivo"
+    },
+    "subClasses" : [ "53", "55", "57", "36", "41", "1", "4" ],
+    "comment" : {
+      "es" : "Todos los tipso de dispositivos que se encuentran listados en los datos"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/SelfTestDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/SelfTestDevice",
+      "es" : "Dispositivo de Autodiagnostico"
+    },
+    "comment" : {
+      "es" : "Dispositivo sanitario que puede ser utilizado por una persona que no es del personal médico"
+    },
+    "id" : "36",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DiagnosticRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/DiagnosticRisk",
+      "es" : "Riesgo de Diagnóstico"
+    },
+    "comment" : {
+      "es" : "Riesgo de que el dispositivo proporcione información incorrecta que lleve a decisiones clínicas erróneas"
+    },
+    "id" : "20",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableActiveDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ImplantableActiveDevice",
+      "es" : "Dispositivo Activo Implantable"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/TYPE-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "labels" : {
+        "IRI-based" : "/TYPE-001"
+      }
+    } ],
+    "comment" : {
+      "es" : "Dispositivo sanitario que depende de una fuente de energía para funcionar, diseñado para ser introducido total o parcialmente en el cuerpo mediante una intervención quirúrgica o médica y destinado a permanecer allí tras la intervención"
+    },
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ActiveDevice",
+      "es" : "Dispositivo Activo"
+    },
+    "comment" : {
+      "es" : "Dispositivo sanitario que funciona con corriente eléctrica o con alguna otra fuente de energía que no es la del ser humano"
+    },
+    "id" : "57",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIII",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassIII",
+      "es" : "Clase III"
+    },
+    "comment" : {
+      "es" : "Riesgo muy alto, generalmente implantes o dispositivos con medicamentos"
+    },
+    "id" : "7",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Risk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Risk",
+      "es" : "Riesgos"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RSK-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "labels" : {
+        "IRI-based" : "/RSK-001"
+      }
+    } ],
+    "subClasses" : [ "9", "12", "14", "16", "18", "20", "63", "23", "85", "71" ],
+    "comment" : {
+      "es" : "Catálogo de riesgos identificados según la nomenclatura IMDRF."
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIb",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassIIb",
+      "es" : "Clase IIb"
+    },
+    "comment" : {
+      "es" : "Riesgo alto"
+    },
+    "id" : "26",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InfectionRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/InfectionRisk",
+      "es" : "Riesgo de Software"
+    },
+    "comment" : {
+      "es" : "Riesgo de que el dispositivo con programas informáticos incluyan errores de código, fallos de algoritmos o bugs que impidan cumplir su función"
+    },
+    "id" : "12",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassIIa",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassIIa",
+      "es" : "Clase IIa"
+    },
+    "comment" : {
+      "es" : "Riesgo medio"
+    },
+    "id" : "28",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Device",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Medical_device",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "/Device",
+      "es" : "Dispositivo Medico"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/DEV-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "labels" : {
+        "IRI-based" : "/DEV-001"
+      }
+    } ],
+    "comment" : {
+      "es" : "Clase que representa un dispositivo médico"
+    },
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RiskClass",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/RiskClass",
+      "es" : "Clases de Riesgos"
+    },
+    "subClasses" : [ "6", "26", "28", "30", "25", "7" ],
+    "comment" : {
+      "es" : "Todos los riesgos clasificados en clases"
+    },
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/Manufacturer",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Manufacturer",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "/Manufacturer",
+      "es" : "Fabricante"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/MAN-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Medtronic",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "/MAN-001"
+      }
+    } ],
+    "comment" : {
+      "es" : "Datos de fabricantes europeos (nombre, país, número de autorización)."
+    },
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ActiveImplant",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ActiveImplant",
+      "es" : "Implante Activo"
+    },
+    "comment" : {
+      "es" : "Dispositivo sanitario que es introducido total o parcialmente al cuerpo humano mediante una intervención quirúrgica o médica"
+    },
+    "id" : "53",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ClassI",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ClassI",
+      "es" : "Clase I"
+    },
+    "comment" : {
+      "es" : "Riesgo bajo"
+    },
+    "id" : "6",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/RadiationRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/RadiationRisk",
+      "es" : "Riesgo de Radiación"
+    },
+    "comment" : {
+      "es" : "Riesgo asociado a la exposición de radiaciones ionizantes o no ionizantes emitidas por el dispositivo"
+    },
+    "id" : "14",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/InterferenceRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/InterferenceRisk",
+      "es" : "Riesgo de Interferencia"
+    },
+    "comment" : {
+      "es" : "Riesgo de interferencia al dispositivo a causa de campos electromagnéticos o que el propio dispositivo interfiera con otro equipos médicos cercanoses"
+    },
+    "id" : "16",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ImplantableDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/ImplantableDevice",
+      "es" : "Dispositivo Implantable"
+    },
+    "comment" : {
+      "es" : "Dispositivo sanitario que es implantado totalmente en el cuerpo humano"
+    },
+    "id" : "41",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/CorrectiveAction",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/CorrectiveAction",
+      "es" : "Acciones correctivas"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/ACT-001",
+      "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+      "labels" : {
+        "IRI-based" : "/ACT-001"
+      }
+    } ],
+    "comment" : {
+      "es" : "Acciones correctivas de seguridad en campo (FSCA) vinculadas a incidentes."
+    },
+    "id" : "107"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "77",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "100",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "104",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "110",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "111",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "135",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "164",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
+  }, {
+    "range" : "10",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "10",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "10",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasDeviceType",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "/hasDeviceType",
+      "es" : "Tiene tipo de dispositivo"
+    },
+    "domain" : "22",
+    "comment" : {
+      "es" : "Conecta el dispositivo con su categoría"
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "28",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "26",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "6",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "25",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "4",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "2",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "6",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "43",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "/involvedDevice",
+      "es" : "Dispositivo involucrado"
+    },
+    "domain" : "45",
+    "comment" : {
+      "es" : "Indica el dispositivo que causó el accidente"
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasManufacturer",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "/hasManufacturer",
+      "es" : "Tiene fabricante"
+    },
+    "domain" : "22",
+    "comment" : {
+      "es" : "Relaciona un dispositivo con su fabricante"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "48"
+  }, {
+    "range" : "2",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "2",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "36",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/involvedDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "/involvedDevice",
+      "es" : "Dispositivo involucrado"
+    },
+    "domain" : "45",
+    "comment" : {
+      "es" : "Indica el dispositivo que causó el accidente"
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "range" : "4",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "4",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "36",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "36",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "1",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "4",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "43",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "10",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "1",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "41",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "10",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "43",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "63",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "71",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "14",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasRisk",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "/hasRisk",
+      "es" : "Tiene riesgo"
+    },
+    "domain" : "50",
+    "comment" : {
+      "es" : "Conecta el incidente con el tipo de riesgo"
+    },
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/eventDate",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "/eventDate",
+      "es" : "Fecha del evento"
+    },
+    "domain" : "45",
+    "comment" : {
+      "es" : "Fecha en la que ocurrió el incidente"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "range" : "18",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "12",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "23",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "16",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "14",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "63",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "20",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "71",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "23",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
+  }, {
+    "range" : "16",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "18",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "range" : "9",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "26",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "12",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "20",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "26",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "96"
+  }, {
+    "range" : "28",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "26",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "28",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "range" : "63",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "23",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "71",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "71",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/hasName",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "/hasName",
+      "es" : "tiene nombre"
+    },
+    "cardinality" : "1",
+    "domain" : "50",
+    "comment" : {
+      "es" : "Nombre de la entidad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/affectsDevice",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "/affectsDevice",
+      "es" : "Afecta al dispositivo"
+    },
+    "domain" : "107",
+    "comment" : {
+      "es" : "Dispositivo afectado"
+    },
+    "attributes" : [ "object" ],
+    "id" : "106"
+  }, {
+    "range" : "14",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "63",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "71",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "14",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "23",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "16",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "18",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "63",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "23",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isSubclassifiedUnder",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "/isSubclassifiedUnder",
+      "es" : "Subclasificado bajo"
+    },
+    "domain" : "43",
+    "comment" : {
+      "es" : "Propiedad transitiva que indica que una clase se encuentra en un nivel jerárquico inferior"
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/reportingEntity",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "/reportingEntity",
+      "es" : "Entidad notificadora"
+    },
+    "domain" : "50",
+    "comment" : {
+      "undefined" : "Quien avisa"
+    },
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "range" : "14",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "63",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/addressesIncident",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "/addressesIncident",
+      "es" : "Aborda incidente"
+    },
+    "domain" : "107",
+    "comment" : {
+      "es" : "Conecta la solución con el problema"
+    },
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "range" : "71",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "12",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "23",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "16",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "10",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "49",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "49",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "43",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "10",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "45",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "43",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "41",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "1",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "36",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "4",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "55",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "41",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "1",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "36",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "53",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "55",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "2",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "43",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "49",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "45",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "45",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "10",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "2",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "43",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos#/isImplantable",
+    "baseIri" : "http://www.semanticweb.org/valrg/ontologies/2026/5/ontología-dispositivos",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "/isImplantable",
+      "es" : "Es implantable"
+    },
+    "domain" : "22",
+    "comment" : {
+      "es" : "Indica si el dispositivo se implanta en el cuerpo"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "range" : "10",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "43",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "49",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "43",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "43",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "43",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "22",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "43",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "71",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "71",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "14",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "63",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "10",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "14",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "range" : "10",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "71",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "10",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  } ]
+}
